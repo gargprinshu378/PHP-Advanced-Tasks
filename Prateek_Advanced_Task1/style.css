@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.flexbox{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.mainimg{
+    width:550px;
+    height:auto;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.content a{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+}
+
+.content{
+    padding-left:20px;
+}
+
+.logo img{
+    width:50px;
+    height:auto;
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
